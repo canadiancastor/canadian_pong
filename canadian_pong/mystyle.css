@@ -1,0 +1,41 @@
+body {
+    background-color: darkslategrey;
+}
+
+h1 {
+    font-size: 150;
+}
+
+*.regular {
+    color: red;
+    font-size: 100;
+}
+
+#container {
+    width: 750px;
+    height: 200px;
+    background: white;
+    position: relative;
+}
+
+#box {
+    width: 10px;
+    height: 10px;
+    background: red;
+    position: absolute;
+}
+
+#blocker {
+    width: 10px;
+    height: 50px;
+    background: red;
+    position: absolute;
+}
+
+#wall {
+    width: 10px;
+    height: 200px;
+    background: red;
+    position: absolute;
+    left: 750px;
+}
